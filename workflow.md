@@ -48,8 +48,17 @@ The project will be conducted over 3 classes and 2 tutorials:
 5. Nov. 10th, 2017 (tutorial):  Report Due
 
 
-1)	Completion at different stages of the workflow (output file in correct formats)
-2)	Structure of the written report: Abstract (250 words), Introduction (500-1000 words), Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report), Results (1000-2000), unlimited figures, tables and references.
-3)	Structure of the presentation (follows general structure of the written report with emphasis on results)
+The project will be assessed based on the following criteria:
+
+1)	Completion at different stages of the [workflow](https://github.com/martinhirst/micb405_project_1/blob/master/workflow.jpeg). Outputs in correct format and directory structure logical (10%)
+
+2)	Written Report (70-90%).  The written report should conform to following structure:
+a.  Abstract (250 words)
+b.  Introduction (500-1000 words)
+c.  Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report)
+d.  Results (1000-2000 words), 
+e.  Unlimited figures, tables and references.
+
+3)	Oral presentation (20%).  10 min presentation should follow general structure of the written report with emphasis on results.
 
 
