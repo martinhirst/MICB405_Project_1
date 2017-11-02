@@ -16,8 +16,15 @@ The (recommended) tools that you will working with to complete this project incl
 
 You may wish to explore other tools available to you on the orca docker that can be found through 'brew list' or can be found [here](https://github.com/bcgsc/orca/blob/master/versions.tsv).
 
-datasets for this project
+Datasets for this project have been uploaded to the orca docker here:
 
+mhirst@mhirst-ORCA:/home/micb405/data/project_1$ ls
+12M_file_subset.sh       CD4_Naive_Input_R1.fq      CD4_Primary_Input_R1.fq
+12M_file_subset.sh~      CD4_Naive_Input_R2.fq      CD4_Primary_Input_R2.fq
+CD4_Naive_H3K27ac_R1.fq  CD4_Primary_H3K27ac_R1.fq  
+CD4_Naive_H3K27ac_R2.fq  CD4_Primary_H3K27ac_R2.fq  
+
+NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has bench marked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
 
 1)	Completion at different stages of the workflow (output file in correct formats)
 2)	Structure of the written report: Abstract (250 words), Introduction (500-1000 words), Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report), Results (1000-2000), unlimited figures, tables and references.
