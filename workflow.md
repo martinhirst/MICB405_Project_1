@@ -39,13 +39,13 @@ These are paired-end 125 nt reads.  Curious about quality - you should be - use 
 
 NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has benchmarked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
 
-The project will be conducted over 3 classes and a tutorial:
+The project will be conducted over 3 classes and 2 tutorials:
 
-Nov. 2nd, 2017 (class):   Introduction to the topic area and the datasets
-Nov. 3rd, 2017 (tutorial):  Team work with TAs
-Nov. 7th, 2017 (class):   Team work with TAs and Instructors
-Nov. 9th, 2017 (class):  Team presentations
-Nov. 10th, 2017 (tutorial):  Report Due
+1. Nov. 2nd, 2017 (class):   Introduction to the topic area and the datasets
+2. Nov. 3rd, 2017 (tutorial):  Team work with TAs
+3. Nov. 7th, 2017 (class):   Team work with TAs and Instructors
+4. Nov. 9th, 2017 (class):  Team presentations
+5. Nov. 10th, 2017 (tutorial):  Report Due
 
 
 1)	Completion at different stages of the workflow (output file in correct formats)
