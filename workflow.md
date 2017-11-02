@@ -3,7 +3,7 @@
 
 Welcome to MICB405 Project 1: Epigenomic Data Analysis.  
 
-In this hands on project you will work in teams to analyze the epigenetic state changes in the genomes of murine CD4 T-cells associated with influenza challenge.  We will focus our analysis on a histone modification that is associated with [active regulatory states](https://github.com/martinhirst/micb405_project_1/blob/master/workflow.jpeg) in mammalian genomes. 
+In this hands on project you will work in teams to analyze the epigenetic state changes in the genomes of murine CD4 T-cells associated with influenza challenge.  We will focus our analysis on a histone modification that is associated with [active regulatory states](https://www.nature.com/articles/nrg3682) in mammalian genomes.  As you work through this project as a team it is highly recommended that you select one member of the team to run the BWA (mem) alignments as that you use one user account to demonstrate that the steps have completed successfully (see below for grading scheme).   
 
 The workflow for this project can be found [here](https://github.com/martinhirst/micb405_project_1/blob/master/workflow.jpeg).
 
