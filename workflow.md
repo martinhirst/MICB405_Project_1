@@ -1,9 +1,16 @@
 
 # Welcome <a id="welcome"></a>
 
-Welcome to Epigenomic Data Analysis.  
+Welcome to MICB405 Project 1: Epigenomic Data Analysis.  
 
-The course schedule can be found [here](https://bioinformaticsdotca.github.io/epidemiology_2017_schedule).
+In this hands on project you will work in teams to analyze ChIP-seq datasets 
+
+The workflow for this project can be found [here](https://github.com/martinhirst/micb405_project_1/blob/master/workflow.jpeg).
+
+1)	Completion at different stages of the workflow (output file in correct formats)
+2)	Structure of the written report: Abstract (250 words), Introduction (500-1000 words), Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report), Results (1000-2000), unlimited figures, tables and references.
+3)	Structure of the presentation (follows general structure of the written report with emphasis on results)
+
 
 Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io//Epigenomics_2017_prework)
 
@@ -12,11 +19,6 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 ***
 
 # Day 1 <a id="day1"></a>
-
-##  Welcome <a id="welcome"></a>
-
-  *<font color="#827e9c">Ann Meyer</font>* 
-<br>
 
 ##  Module 1: Introduction to ChIP Sequencing and Analysis <a id="module_1"></a>
 
