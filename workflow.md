@@ -46,7 +46,7 @@ We do not have access to a html accessible directory on the docker to allow you 
 
 "http://www.bcgsc.ca/downloads/ubc_vincenzo_Chip/MICB405_Influenza/hub.txt"
 
-This was generated directly from the sorted, duplicate marked bam files using the JAVA package [BAM2WIG](http://www.epigenomes.ca/tools-and-software).  We have also included matching directional RNA-seq datasets (not included as part of your analysis package).
+This was generated directly from the sorted, duplicate marked bam files using the JAVA package [BAM2WIG](http://www.epigenomes.ca/tools-and-software).  We have also included matching directional [RNA-seq](https://en.wikipedia.org/wiki/RNA-Seq) datasets (not included as part of your analysis package).
 
 NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has benchmarked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
 
