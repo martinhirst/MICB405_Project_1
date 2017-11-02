@@ -53,15 +53,16 @@ The project will be assessed based on the following criteria:
 1)	Completion at different stages of the [workflow](https://github.com/martinhirst/micb405_project_1/blob/master/workflow.jpeg). Outputs in correct format and directory structure logical (10%)
 
 2)	Written Report (70-90%).  The written report should conform to following structure:
-a.  Abstract (250 words)
 
-b.  Introduction (500-1000 words)
+  a.  Abstract (250 words)
 
-c.  Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report)
+  b.  Introduction (500-1000 words)
 
-d.  Results (1000-2000 words)
+  c.  Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report)
 
-e.  Unlimited figures, tables and references.
+  d.  Results (1000-2000 words)
+
+  e.  Unlimited figures, tables and references.
 
 3)	Oral presentation (20%).  10 min presentation should follow general structure of the written report with emphasis on results.
 
