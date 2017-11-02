@@ -1,11 +1,3 @@
----
-layout: workshop_main_2day
-permalink: /epigenomics_2017
-title: Epigenomic Data Analysis
-header1: Workshop Pages for Students
-header2: Epigenomic Data Analysis 2017
-image: /site_images/CBW_Epigenome-data_icon.jpg
----
 
 # Welcome <a id="welcome"></a>
 
