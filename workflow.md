@@ -37,7 +37,16 @@ CD4_Primary_H3K27ac_R2.fq
 
 These are paired-end 125 nt reads.  Curious about quality - you should be - use [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
 
-NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has bench marked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
+NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has benchmarked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
+
+The project will be conducted over 3 classes and a tutorial:
+
+Nov. 2nd, 2017 (class):   Introduction to the topic area and the datasets
+Nov. 3rd, 2017 (tutorial):  Team work with TAs
+Nov. 7th, 2017 (class):   Team work with TAs and Instructors
+Nov. 9th, 2017 (class):  Team presentations
+Nov. 10th, 2017 (tutorial):  Report Due
+
 
 1)	Completion at different stages of the workflow (output file in correct formats)
 2)	Structure of the written report: Abstract (250 words), Introduction (500-1000 words), Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report), Results (1000-2000), unlimited figures, tables and references.
