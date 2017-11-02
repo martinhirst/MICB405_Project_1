@@ -20,12 +20,19 @@ Datasets for this project have been uploaded to the orca docker here:
 
 mhirst@mhirst-ORCA:/home/micb405/data/project_1$ ls
 CD4_Naive_Input_R1.fq
+
 CD4_Primary_Input_R1.fq
+
 CD4_Naive_Input_R2.fq
+
 CD4_Primary_Input_R2.fq
+
 CD4_Naive_H3K27ac_R1.fq
+
 CD4_Primary_H3K27ac_R1.fq  
+
 CD4_Naive_H3K27ac_R2.fq
+
 CD4_Primary_H3K27ac_R2.fq  
 
 These are paired-end 125 nt reads.  Curious about quality - you should be - use [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
