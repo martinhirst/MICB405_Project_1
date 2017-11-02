@@ -37,6 +37,10 @@ CD4_Primary_H3K27ac_R2.fq
 
 These are paired-end 125 nt reads.  Curious about quality - you should be - use [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
 
+
+The reference genome (mm10) has been indexed for you and is available here:
+mhirst@mhirst-ORCA:/home/micb405/resources/genomes/mouse/mm10/bwa_index/
+
 NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has benchmarked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
 
 The project will be conducted over 3 classes and 2 tutorials:
