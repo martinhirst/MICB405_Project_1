@@ -19,10 +19,16 @@ You may wish to explore other tools available to you on the orca docker that can
 Datasets for this project have been uploaded to the orca docker here:
 
 mhirst@mhirst-ORCA:/home/micb405/data/project_1$ ls
-12M_file_subset.sh       CD4_Naive_Input_R1.fq      CD4_Primary_Input_R1.fq
-12M_file_subset.sh~      CD4_Naive_Input_R2.fq      CD4_Primary_Input_R2.fq
-CD4_Naive_H3K27ac_R1.fq  CD4_Primary_H3K27ac_R1.fq  
-CD4_Naive_H3K27ac_R2.fq  CD4_Primary_H3K27ac_R2.fq  
+CD4_Naive_Input_R1.fq
+CD4_Primary_Input_R1.fq
+CD4_Naive_Input_R2.fq
+CD4_Primary_Input_R2.fq
+CD4_Naive_H3K27ac_R1.fq
+CD4_Primary_H3K27ac_R1.fq  
+CD4_Naive_H3K27ac_R2.fq
+CD4_Primary_H3K27ac_R2.fq  
+
+These are paired-end 125 nt reads.  Curious about quality - you should be - use [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
 
 NOTE:  When you are running commands that take a significant time to complete (for example BWA) you should write a simple [BASH script](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_01.html) and use [nohup](https://en.wikipedia.org/wiki/Nohup) to ensure your job does not terminate if your terminal disconnects.  The alignment step has bench marked at 12-14hrs - so start this soon - the remaining steps should complete within 15mins.
 
