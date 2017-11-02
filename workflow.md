@@ -54,9 +54,13 @@ The project will be assessed based on the following criteria:
 
 2)	Written Report (70-90%).  The written report should conform to following structure:
 a.  Abstract (250 words)
+
 b.  Introduction (500-1000 words)
+
 c.  Methods (1000-2000 words including workflow, directory structure, commands with parameter selection rationale in written report)
-d.  Results (1000-2000 words), 
+
+d.  Results (1000-2000 words)
+
 e.  Unlimited figures, tables and references.
 
 3)	Oral presentation (20%).  10 min presentation should follow general structure of the written report with emphasis on results.
