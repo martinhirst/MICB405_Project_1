@@ -10,6 +10,19 @@ The (recommended) tools that you will working with to complete this project incl
 1.  [BWA](https://github.com/lh3/bwa) 
 2.  [SAMBAMBA](http://lomereiter.github.io/sambamba/)
 3.  [MACS2](https://github.com/taoliu/MACS)
+
+You will need to install MACS2 on your docker.  To do so enter the following command:
+
+sudo -u linuxbrew /home/linuxbrew/.linuxbrew/bin/pip2 install macs2
+
+If your shell reports a permission error during installation enter the following:
+
+chmod -R 775 ~/.cache
+
+and after that again:
+
+sudo -u linuxbrew /home/linuxbrew/.linuxbrew/bin/pip2 install macs2
+
 4.  [bedtools](http://bedtools.readthedocs.io/en/latest/)
 5.  [GREAT](http://great.stanford.edu/public/html/index.php)
 6.  [UCSC Genome Browser](https://genome.ucsc.edu/)
@@ -41,17 +54,6 @@ These are paired-end 125 nt reads.  Curious about quality - you should be - use 
 
 The reference genome (mm10) has been indexed for you and is available here:
 mhirst@mhirst-ORCA:/home/micb405/resources/genomes/mouse/mm10/bwa_index/
-
-You will need to install MACS2 on your docker.  To do so enter the following command:
-
-sudo -u linuxbrew /home/linuxbrew/.linuxbrew/bin/pip2 install macs2
-
-If your shell reports a permission error during installation enter the following:
-
-chmod -R 775 ~/.cache
-
-and after that again:
-sudo -u linuxbrew /home/linuxbrew/.linuxbrew/bin/pip2 install macs2
 
 We do not have access to a html accessible directory on the docker to allow you to directly view your alignment files on the UCSC genome browser.  However here is the [track hub](https://genome.ucsc.edu/goldenpath/help/hgTrackHubHelp.html) for doing so:
 
